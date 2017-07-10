@@ -1,4 +1,4 @@
-import { something, __Rewire__, __ResetDependency__ } from '../src/index.js';
+import { something, __Rewire__, __ResetDependency__ } from '../src/index.ts';
 
 __Rewire__('message', 'baz!');
 
